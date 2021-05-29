@@ -18,7 +18,7 @@ const circleOne = {
 console.log("creating object using object literal", circleOne);
 
 // Solution 02:
-// Factory functions and constructor function
+// To create multiple objects with the same structure and behaviuor (methods) use Factory functions and constructor function.
 
 // Factory function:
 
