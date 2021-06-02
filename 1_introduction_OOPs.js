@@ -51,7 +51,7 @@ employee.getWage();
 //  Four core concept of OOPs:
 // 1. Encapsulation : process of grouping related variable and functions in a object.
 // 2. Abstraction : is a process where we expose (public) only few properties or function. Rest of them are private. This is reduces the code complexicity and abstracted part of the code is exposed.
-// 3. Inheritance : is a machanism that allows to reduce the redundant code.
+// 3. Inheritance : Inheritance enables an object or class to take on properties, methods of another object or class. It is a machanism that allows to reduce the redundant code.
 // 4. Polymorphism : is a techniques reduces the more long codes like if and else or switch case statements.
 
 

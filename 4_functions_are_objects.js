@@ -1,6 +1,6 @@
 
 // Function are first class citizens.
-// Function are objects.
+// Functions are objects.
 
 function Circle(radius) {
     this.radius = radius;

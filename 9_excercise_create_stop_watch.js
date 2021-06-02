@@ -1,4 +1,4 @@
-// Question: Design a stopwatch. Where you can call start(), stop(), reset() methods. Also we can set the duration from outside.
+// Question: Design a stopwatch. Where you can call; start(), stop(), reset() methods. Also we can set the duration from outside.
 
 // Answer:
 

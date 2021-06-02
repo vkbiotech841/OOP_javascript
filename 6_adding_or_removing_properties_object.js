@@ -25,7 +25,7 @@ circleThree['circumference'] = { circumference: 300 }
 
 // DELETING PROPERTIES OF AN OBJECT:
 
-// usind dot notation
+// using dot notation
 delete circleThree.locations;
 delete circleThree.draw;
 

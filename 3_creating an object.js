@@ -2,7 +2,7 @@
 // Many a times we need to create an object at multiple place. How do we do that?
 // Every object in javascript has property called as "Constructor". This references to the function that was used for creating or constructing that object.
 
-// Solution 01:
+// Solution 01: Object literal method
 // Type manually object using object literal syntex at the several places (not recommanded);
 const circleOne = {
     radius: 1,
@@ -17,7 +17,7 @@ const circleOne = {
 
 console.log("creating object using object literal", circleOne);
 
-// Solution 02:
+// Solution 02: Factory functions and Constructor function.
 // To create multiple objects with the same structure and behaviuor (methods) use Factory functions and constructor function.
 
 // Factory function:
@@ -62,7 +62,7 @@ const circleThree = new Circle(1);
 console.log("creating circle using constructor method", circleThree);
 
 
-// Solution 03:
+// Solution 03: Class method
 // Create a class and instantiate the class where you wish to create an object. Creating class are only possible in typescript not in javascript.
 
 // In the above example, circleTwo and circleThree are objects have been created using their in-build constructor functions.

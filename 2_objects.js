@@ -14,5 +14,7 @@ const circle = {
 };
 
 // Properties of an object can be accessed using dot notation.
+console.log("radius", circle.radius);
+console.log("locations", circle.locations);
 circle.draw();
 

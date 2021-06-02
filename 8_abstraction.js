@@ -1,5 +1,5 @@
 // Abstraction: Hide the details and show the essentials.
-// Abstraction is a process where we expose (public) only few properties or function. Rest of them are private. This is reduces the code complexicity and abstracted part of the code is exposed.
+// Abstraction is a process where we expose (public) only few properties or function. Rest of them are private. This process is reduces the code complexicity and abstracted part of the code is exposed.
 
 function Circle(radius) {
     this.radius = radius;
@@ -20,7 +20,7 @@ circle.draw();
 
 // In the above example, we don't want to expose defaultLocation and computeOptimumLocation to be excessable outside of this Circle function (Abstraction).
 // To achieve this:
-// We should use remove "this" keyword to avoid because its excess globally.
+// We should use remove "this" keyword to avoid because it makes a variable excess globally.
 // We use let keyword to bring its scope to the nearest code block.
 // Hence, this methods becomes private the Circle constructor function and can't be excessed outside of the function using dot notation.
 
@@ -57,7 +57,7 @@ circle.getDefaultLocation();
 
 
 // Method 02:
-// using in build getter and setter method.
+// using in-build getter and setter method.
 // Object.prototype
 
 // get : getter is a function that used for only reading a properties (readonly property).
