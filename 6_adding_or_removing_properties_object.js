@@ -16,6 +16,7 @@ function Circle(radius) {
 const circleThree = new Circle(1);
 
 //  ADDING PROPERTIES OF AN OBJECT:
+
 // Adding new properties to the Circle object using dot notation:
 circleThree.area = { area: 200 };
 

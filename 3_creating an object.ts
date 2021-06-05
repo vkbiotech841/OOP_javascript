@@ -22,7 +22,7 @@ console.log("creating object using object literal", circleOne);
 
 // Factory function:
 
-// factory function must return an object.
+// factory function is a function that must return an object.
 function createCircle(radius) {
     return {
         radius: radius,
@@ -42,7 +42,7 @@ console.log("creating object using factory function", circleTwo);
 
 // Constructor function:
 
-// Constructor function are name with capital letter.
+// Constructor function are named with capital letter.
 // We use "this" keyword inside the constructor funtion instead of return.
 // this is refernce to the object that refering to the object that executing this piece of code.
 // Further, create an object, constructor function need to be instantiated with new keyword.

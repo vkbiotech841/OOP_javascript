@@ -24,7 +24,7 @@ console.log("getWage");
 // OOPs: Object Oriented Programming
 // OOPs groups the related variable and function in an object (Encapsulation). That reduce the changes of code interdependency associated problems.
 
-// OOPs is a paradigm(sytle of programming) centered around objects rather than functions.
+// OOPs is a paradigm (sytle of programming) centered around objects rather than functions.
 // This is not a programming language but it is a sytle of programming.
 // Languages that supports OOPs: C#, java, Ruby,  Python,  JavaScript
 // Many framworks are designed based on OOPs. e.g. Angular
@@ -49,9 +49,13 @@ employee.getWage();
 
 
 //  Four core concept of OOPs:
+
 // 1. Encapsulation : process of grouping related variable and functions in a object.
-// 2. Abstraction : is a process where we expose (public) only few properties or function. Rest of them are private. This is reduces the code complexicity and abstracted part of the code is exposed.
+
+// 2. Abstraction : is a process where we expose (public) only few properties or function. Rest of them are private. This is to reduces the code complexicity and abstracted part of the code is exposed.
+
 // 3. Inheritance : Inheritance enables an object or class to take on properties, methods of another object or class. It is a machanism that allows to reduce the redundant code.
-// 4. Polymorphism : is a techniques reduces the more long codes like if and else or switch case statements.
+
+// 4. Polymorphism : is a techniques that reduces the more long codes like if and else or switch case statements.
 
 

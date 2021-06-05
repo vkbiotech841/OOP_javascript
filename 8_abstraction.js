@@ -1,4 +1,4 @@
-// Abstraction: Hide the details and show the essentials.
+// Abstraction: Hide the details and show only the essentials.
 // Abstraction is a process where we expose (public) only few properties or function. Rest of them are private. This process is reduces the code complexicity and abstracted part of the code is exposed.
 
 function Circle(radius) {
@@ -60,7 +60,7 @@ circle.getDefaultLocation();
 // using in-build getter and setter method.
 // Object.prototype
 
-// get : getter is a function that used for only reading a properties (readonly property).
+// get : getter is a function that is used for only reading a properties (readonly property).
 // when circle.defaultLocation() function will be called. it will call the getter function and return its value. but using only we can read its value but can not set its value from outside. Hence, we need a another function to set its value from outside.Getter only make a function callable but not settable.
 
 // set: setter is a function that is used for setting a value of a properties from outside.

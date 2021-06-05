@@ -3,7 +3,7 @@
 // (1) Value Types/Primitives: Number, string, boolean, Symbols, undefined,null
 // (2) Reference Types/Objects: Objecs, functions and arrays
 
-// How Value and reference type behave differentlly:
+// How Value and reference type behave differentlly?
 
 // Premitive type example:
 let x = 10;  // initially x was 10
