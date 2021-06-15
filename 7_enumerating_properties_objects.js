@@ -29,3 +29,7 @@ console.log("object.key method gives keys in an array", keys);
 if ('radius' in circleFour) {
     console.log("radius is present");
 }
+
+// Methods 04: This method return an array of object values,
+const values = Object.values(circleFour);
+console.log("object.value method gives values in an array", values);
